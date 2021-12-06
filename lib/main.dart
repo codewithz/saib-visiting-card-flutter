@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
                 'Zartab Nakhwa',
                 style: TextStyle(
                   color: Colors.white,
+                  fontFamily: 'Pacifico',
                   fontSize: 40,
                   fontWeight: FontWeight.bold
                 ),
