@@ -23,7 +23,14 @@ class MyApp extends StatelessWidget {
                 radius: 50,
                 backgroundImage: AssetImage('images/zartab.jpg'),
               ),
-
+              Text(
+                'Zartab Nakhwa',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 40,
+                  fontWeight: FontWeight.bold
+                ),
+              ),
 
             ],
 
