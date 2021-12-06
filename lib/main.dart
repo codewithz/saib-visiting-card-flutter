@@ -17,17 +17,37 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         backgroundColor: Colors.teal,
         body: SafeArea(
-          child: Container(
-            width: 100.0,
-            height: 100.00,
-            margin: EdgeInsets.symmetric(vertical: 50,
-                horizontal: 100),
-            color: Colors.white,
-            child: Text ('Hello World'),
+          child: Column(
+          crossAxisAlignment: CrossAxisAlignment.end,
+            children: <Widget>[
+              Container(
+                width: 300.0,
+                height: 100.00,
+                color: Colors.white,
+                child: Text ('Container 1')
+          ),
+                Container(
+                  width: 100.0,
+                  height: 100.00,
+                  color: Colors.blue,
+                  child: Text ('Container 2'),
+                ),
+
+                Container(
+                  width: 100.0,
+                  height: 100.00,
+                  color: Colors.red,
+                  child: Text ('Container 2'),
+                ),
+
+            ],
+
           ),
         ),
       ),
     );
   }
 }
+
+
 
